@@ -1,15 +1,25 @@
-body {
-    background: lightblue;
-}
-
-
-
-
-.aboutme {
-    margin-top: 30px;
+html, body {
+    overflow-x: hidden;
+    
 }
 
 img:hover {
     transform: translateX(60px);
     
+}
+
+.form {
+    padding-top: 50px;
+}
+
+main {
+    background-color: lightblue;
+    border-bottom: solid black 2px;
+    background-size: cover;
+    
+    
+}
+
+.experience ul {
+    list-style-type: none;
 }
