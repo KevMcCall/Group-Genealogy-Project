@@ -1,0 +1,15 @@
+body {
+    background: lightblue;
+}
+
+
+
+
+.aboutme {
+    margin-top: 30px;
+}
+
+img:hover {
+    transform: translateX(60px);
+    
+}
