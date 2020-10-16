@@ -3,6 +3,10 @@ html, body {
     
 }
 
+.dropdown {
+    display: none;
+}
+
 img:hover {
     transform: translateX(60px);
     
@@ -23,3 +27,31 @@ main {
 .experience ul {
     list-style-type: none;
 }
+
+
+/* Width Covers 0px-480px */
+@media screen and (max-width: 480px) { 
+    nav ul { display: none; }
+    nav select { display: inline-block; }
+}
+
+/* Width Covers 481px-768px */
+@media screen and (min-width: 768px) {
+    body {
+      
+    }
+
+}
+
+/* Width Covers 769px-1025px (and greater) */
+@media screen and (min-width: 1025px) {
+  body {
+    
+  }
+
+}
+
+@media (max-width: 960px) {
+    nav ul     { display: none; }
+    nav select { display: inline-block; }
+  }
