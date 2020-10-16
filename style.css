@@ -4,7 +4,7 @@ html, body {
 }
 
 .dropdown {
-    display: none;
+    
 }
 
 img:hover {
@@ -50,8 +50,3 @@ main {
   }
 
 }
-
-@media (max-width: 960px) {
-    nav ul     { display: none; }
-    nav select { display: inline-block; }
-  }
