@@ -2,7 +2,9 @@ html, body {
     width: 100%;
     height: 100%;
     margin: 0;
-    overflow: hidden;
+    overflow-x: hidden;
+    
+    
 }
 html {
     font-family: "helvetica neue", sans-serif;
@@ -15,15 +17,32 @@ html {
 .jumbotron {
     text-align: center;
     margin-bottom: 0em;
+    background-color: black;
+    color: white;
+    
+}
+.experience {
+    padding-top: 150px;
 }
 
+.experience ul {
+    list-style-type: none;
+    
+}
+
+.doctor {
+    padding-top: 145px;
+}
+
+
 .nav {
-    padding-left: 20px;
+    padding-left: 0px;
     border-bottom: 1px solid #EAEAEB;
     text-align: right;
     height: 70px;
     line-height: 70px;
     background-color: black;
+    list-style-type: none;
 }
 .menu {
     margin: 0 30px 0 0;
@@ -33,19 +52,16 @@ html {
 }
 .menu a {
     clear: right;
+    
     text-decoration: none;
     color: white;
     margin: 0 10px;
     line-height: 70px;
 }
 
-span {
-    color: #54D17A;
-}
-
 label {
     margin: 0 40px 0 0;
-    font-size: 26px;
+    font-size: 25px;
     line-height: 70px;
     display: none;
     width: 26px;
@@ -83,9 +99,7 @@ label {
     
 }
 
-@media screen and (min-width: 1025px) {
 
-}
 
 
 
@@ -123,7 +137,6 @@ label {
     body {
       
     }
-
 }*/
 
 /* Width Covers 769px-1025px (and greater) 
@@ -131,5 +144,4 @@ label {
   body {
     
   }
-
 }*/
